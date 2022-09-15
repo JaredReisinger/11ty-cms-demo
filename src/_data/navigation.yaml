@@ -1,10 +1,9 @@
----
 items:
-  - text: Menu One
+  - text: Home
     url: "#"
-  - text: Menu Two
+  - text: Club Information
     url: "#"
-  - text: Menu Three
+  - text: SDFA Bylaws
     url: "#"
-  - text: Blog
-    url: "/blog"
+  - text: Events
+    url: /blog
