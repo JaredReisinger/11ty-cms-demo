@@ -7,7 +7,9 @@
   >
     <!--Logo etc-->
     <div class="flex items-center">
-      <a href="/" class="text-indigo-500 font-bold text-lg"><img src="{{ settings.logo }}"></a>
+      <a href="/" class="text-indigo-500 font-bold text-lg"
+        ><img src="{{ settings.logo }}"
+      /></a>
     </div>
     <!--Toggle button (hidden on large screens)-->
     <button
@@ -46,6 +48,14 @@
       <ul
         class="pt-6 lg:pt-0 list-reset lg:flex justify-end flex-1 items-center"
       >
+        <li class="nav__item mr-3">
+          <a
+            @click="isOpen = false"
+            class="text-ml inline-block text-gray-500 no-underline hover:text-indigo-500 py-2 px-4"
+            href="/"
+            >Home</a
+          >
+        </li>
         {% for item in collections.pages | sort(false, false, "data.order") %}
         <li class="nav__item mr-3">
           <a

@@ -1,0 +1,25 @@
+members:
+  - role: President
+    name: Don Hanson
+    email: sounderfan@whatever.org
+  - role: Vice-President
+    name: vpvpvp
+    email: vpvpvp
+  - role: Secretary
+    name: Barbara Reisinger
+    email: sdfa@barbarareisinger.com
+  - role: Treasurer
+    name: ttt
+    email: ttt
+  - role: Board Member
+    name: bm1
+    email: bm1
+  - role: Board Member
+    name: bm2
+    email: bm2
+  - role: Board Member
+    name: bm3
+    email: bm3
+  - role: AKC Delegate
+    name: Dawn/Barbara
+    email: deldel

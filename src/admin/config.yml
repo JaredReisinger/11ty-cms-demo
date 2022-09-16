@@ -18,6 +18,7 @@ local_backend: true
 # publish_mode: editorial_workflow
 
 collections:
+
   - label: Pages
     name: pages
     folder: src/pages
@@ -28,17 +29,23 @@ collections:
       - { label: Title, name: title, widget: string }
       - { label: Nav Title (if not title), name: nav-title, widget: string, required: false }
       - { label: Nav Order, name: order, widget: number, value_type: int }
-      - { label: Permalink, name: permalink, widget: string }
-      - { label: Description, name: description, widget: string, required: false }
-      - { label: Author, name: author, widget: string, required: false }
-      - { label: Publish Date, name: date, widget: datetime }
-      - { label: Header Image, name: header, widget: file, required: false }
+      - { label: Header Image, name: header-image, widget: file, required: false }
       - { label: Body, name: body, widget: markdown }
+
   - label: Settings
     name: settings
     editor:
       preview: false
     files:
+      - label: Site Settings
+        name: settings
+        file: src/_data/settings.yaml
+        fields:
+          - { label: Name, name: name, widget: string }
+          - { label: Author, name: author, widget: string }
+          - { label: URL, name: url, widget: string }
+          - { label: Logo, name: logo, widget: file }
+
       - label: Quick Links
         name: links
         file: src/_data/quicklinks.yaml
@@ -51,11 +58,17 @@ collections:
               - { label: Title, name: title, widget: string }
               - { label: URL, name: url, widget: string }
               - { label: Description, name: desc, widget: string }
-      - label: Site Settings
-        name: settings
-        file: src/_data/settings.yaml
+
+      - label: Officers and Board
+        name: board
+        file: src/_data/board.yaml
         fields:
-          - { label: Name, name: name, widget: string }
-          - { label: Author, name: author, widget: string }
-          - { label: URL, name: url, widget: string }
-          - { label: Logo, name: logo, widget: file }
+          - label: Members
+            name: members
+            # widget: string
+            widget: list
+            # collapsed: false
+            fields:
+              - { label: Role, name: role, widget: string }
+              - { label: Name, name: name, widget: string }
+              - { label: Email, name: email, widget: string }

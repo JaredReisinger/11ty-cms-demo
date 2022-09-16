@@ -27,8 +27,7 @@ module.exports = function (eleventyConfig) {
   // });
   // eleventyConfig.addNunjucksGlobal('year', new Date().getFullYear().toString());
 
-  // To Support .yaml Extension in _data
-  // You may remove this if you can use JSON
+  // Allow YAML everywhere that JSON is supported.
   eleventyConfig.addDataExtension('yaml', (contents) => yaml.load(contents));
 
   // Copy Static Files to /_Site
@@ -66,6 +65,8 @@ module.exports = function (eleventyConfig) {
     dir: {
       input: 'src',
     },
+    // dataTemplateEngine: 'njk',
     htmlTemplateEngine: 'njk',
+    markdownTemplateEngine: 'njk',
   };
 };

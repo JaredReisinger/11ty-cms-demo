@@ -1,7 +1,23 @@
 ---
 title: Helpful Links
 order: 99
-permalink: helpful-links/index.html
-date: 2022-09-15T23:29:57.277Z
 ---
-AKC, Superintendents, etc.
+
+
+[AKC Reunite](https://www.akcreunite.org/local)
+
+​This web page includes links to the FEMA training for volunteers, AKC Pet Disaster Relief trailer program resources, and PR and social media tips from AKC’s Communications Department.
+
+[The American Kennel Club](https://www.akc.org/)
+
+AKC Show Superintendents
+
+- ​[Jack Onofrio Dog Shows](https://www.onofrio.com)
+
+- [Jack Bradshaw — Dog Show Superintendents](https://www.jbradshaw.com)
+
+- [InfoDog — The Dog Fancier's Complete Resource](https://infodog.com)
+
+- [BaRay Event Services Inc. — AKC Dog Show Superintendent](https://www.barayevents.com)
+
+- [Foy Trent Dog Show Superintendent](https://foytrentdogshows.com)
