@@ -2,18 +2,19 @@
 layout: default
 title: Scottsdale Dog Fanciers Association
 path: home
+headerImage: /static/img/sebastian-coman-travel-5tezjry1wbi-unsplash.jpg
 ---
 
 <div
-  class="container mx-auto lg:h-screen flex flex-col justify-center items-center"
+  class="mb-10 bg-yellow-100 bg-cover bg-center"
+  style="background-image: url('{{ headerImage }}')"
 >
-  <h1>
-    <strong
-      class="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500"
-    >
-      {{title}}
-    </strong>
-  </h1>
-
-  {% include "./_includes/partials/content.html" %}
+  <div class="py-20" style="background-color: hsl(40, 80%, 50%, 0.5)">
+    <div class="container p-5">
+      <h1 class="font-bold" style="text-shadow: 0 0 0.5em white">{{ title }}</h1>
+    </div>
+  </div>
 </div>
+
+
+{% include "./_includes/partials/content.html" %}

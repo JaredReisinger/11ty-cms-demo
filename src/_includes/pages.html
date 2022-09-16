@@ -2,10 +2,27 @@
 layout: default
 ---
 
-<div class="container max-w-4xl mt-6 px-6">
-  <div class="pb-5 mb-5 border-b border-gray-100">
-    <h1 class="font-bold text-5xl">{{ title }}</h1>
+<div
+  class="mb-10 bg-yellow-100 bg-cover bg-center"
+  style="background-image: url('{{ headerImage }}')"
+>
+  <div class="py-20" style="background-color: hsl(40, 80%, 50%, 0.5)">
+    <div class="container p-5">
+      <h1 class="font-bold" style="text-shadow: 0 0 0.5em white">{{ title }}</h1>
+    </div>
   </div>
-
-  <article class="prose lg:prose-xl my-4 mx-auto">{{ content | safe }}</article>
 </div>
+
+{#
+<div class="w-full bg-red-200 p-5">
+  #} {#
+  <div class="container bg-green-300">
+    #}
+    <article class="prose lg:prose-xl my-4 mx-auto">
+      {{ content | safe }}
+    </article>
+    {#
+  </div>
+  #} {#
+</div>
+#}
