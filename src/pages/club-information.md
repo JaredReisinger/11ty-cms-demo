@@ -1,7 +1,7 @@
 ---
 title: Club Information
 order: 1
-headerImage: /static/img/sebastian-coman-travel-5tezjry1wbi-unsplash.jpg
+headerImage: /static/media/sebastian-coman-travel-5tezjry1wbi-unsplash.jpg
 ---
 
 ## SDFA Officers and Board of Directors

@@ -2,7 +2,7 @@
 title: SDFA Bylaws & Policies
 nav-title: SDFA Bylaws
 order: 2
-headerImage: /static/img/writing.jpg
+headerImage: /static/media/writing.jpg
 ---
 
 SCOTTSDALE DOG FANCIERS ASSOCIATION, INC.

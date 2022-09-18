@@ -1,15 +1,15 @@
 backend:
-  # # for local development
-  # name: proxy
-  # proxy_url: "http://localhost:8081/api/v1"
-  # branch: master
-
-  # for production
-  name: git-gateway
+  # for local development
+  name: proxy
+  proxy_url: "http://localhost:8081/api/v1"
   branch: master
 
-# # Please run "npx netlify-cms-proxy-server" for local backend
-# local_backend: true
+  # # for production
+  # name: git-gateway
+  # branch: master
+
+# Please run "npx netlify-cms-proxy-server" for local backend
+local_backend: true
 
 media_folder: src/static/media
 public_folder: /static/media
