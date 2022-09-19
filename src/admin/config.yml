@@ -52,19 +52,6 @@ collections:
           - { label: URL, name: url, widget: string }
           - { label: Logo, name: logo, widget: file }
 
-      - label: Quick Links
-        name: links
-        file: src/_data/quicklinks.yaml
-        fields:
-          - label: Nav Items
-            name: links
-            widget: list
-            collapsed: false
-            fields:
-              - { label: Title, name: title, widget: string }
-              - { label: URL, name: url, widget: string }
-              - { label: Description, name: desc, widget: string }
-
       - label: Officers and Board
         name: board
         file: src/_data/board.yaml
