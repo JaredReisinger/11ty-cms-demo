@@ -1,6 +1,7 @@
 ---
 title: Club Information
 order: 1
+description: More about the club and who we are.
 headerImage: /static/media/sebastian-coman-travel-5tezjry1wbi-unsplash.jpg
 ---
 
@@ -8,7 +9,7 @@ headerImage: /static/media/sebastian-coman-travel-5tezjry1wbi-unsplash.jpg
 
 {% include "partials/board.html" %}
 
-Are you interested in becoming a member of SDFA?  Download the membership application below. ​Current fees are $20 for an individual, and $30 for a family.
+> #### Are you interested in becoming a member of SDFA?  [Download the membership application](/static/media/sdfa_application_2019.pdf)! ​Current fees are $20 for an individual, and $30 for a family.
 
 
 ARTICLE II            MEMBERSHIP

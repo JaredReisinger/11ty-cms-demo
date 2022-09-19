@@ -1,8 +1,9 @@
 ---
 title: Helpful Links
 order: 99
+description: Handy links to other dog resources.
+headerImage: /static/media/chain-jj-ying-pdxyfxvlk2m-unsplash.jpg
 ---
-
 
 [AKC Reunite](https://www.akcreunite.org/local)
 
