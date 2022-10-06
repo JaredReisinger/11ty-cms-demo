@@ -118,10 +118,8 @@ module.exports = function (eleventyConfig) {
     );
   });
 
-  // eleventyConfig.addShortcode('year', function () {
-  //   console.log("CALLING YEAR");
-  //   return new Date().getFullYear();
-  // });
+  eleventyConfig.addShortcode('year', () => new Date().getFullYear().toString());
+
   // eleventyConfig.addNunjucksGlobal('year', new Date().getFullYear().toString());
 
   // Allow YAML everywhere that JSON is supported.
