@@ -7,7 +7,7 @@ headerImage: /static/media/sebastian-coman-travel-5tezjry1wbi-unsplash.jpg
 
 <div
   class="mb-10 bg-yellow-100 bg-cover bg-center"
-  style="background-image: url('{{ headerImage }}')"
+  style="{% backgroundImage "./src" + headerImage %}"
 >
   <div class="py-20" style="background-color: hsl(40, 80%, 50%, 0.5)">
     <div class="container p-5">
